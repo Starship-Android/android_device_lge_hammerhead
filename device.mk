@@ -88,6 +88,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/thermal-engine-hammerhead.conf:system/etc/thermal-engine.conf
 
+# init.d 
+PRODUCT_COPY_FILES += \
+    device/lge/hammerhead/init.d/appremove:system/etc/init.d/appremove \
+    device/lge/hammerhead/init.d/cleanup:system/etc/init.d/cleanup
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # This device is xhdpi.  However the platform doesn't
