@@ -332,3 +332,6 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4339
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cwm.forbid_format=/persist,/firmware,/boot,/sbl1,/tz,/rpm,/sdi,/aboot,/imgdata \
     ro.cwm.forbid_mount=/persist,/firmware
+
+# common starship configs
+$(call inherit-product, device/starship-common/starship.mk)
