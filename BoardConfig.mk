@@ -101,7 +101,7 @@ BOARD_SEPOLICY_DIRS := \
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/hammerhead-Starship
+TARGET_KERNEL_SOURCE := kernel/lge/hammerhead-starship
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION := \
