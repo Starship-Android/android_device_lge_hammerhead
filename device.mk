@@ -88,6 +88,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/thermal-engine-hammerhead.conf:system/etc/thermal-engine.conf
 
+#Bootanimation
+PRODUCT_COPY_FILES += \
+    device/lge/hammerhead/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_TAGS += dalvik.gc.type-precise
 
 # This device is xhdpi.  However the platform doesn't
