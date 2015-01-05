@@ -110,7 +110,7 @@ BOARD_SEPOLICY_DIRS += \
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
+TARGET_KERNEL_SOURCE := kernel/lge/hammerhead-starship
 
 # The list below is order dependent
 BOARD_SEPOLICY_UNION += \
@@ -167,6 +167,7 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BOARD_HARDWARE_CLASS := device/lge/hammerhead/cmhw
 
 -include vendor/lge/hammerhead/BoardConfigVendor.mk
+-include device/starship-common/BoardConfigCommon.mk
 
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
